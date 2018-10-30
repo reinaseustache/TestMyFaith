@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestMyFaith</string>
+    <string name="action_settings">Settings</string>
+    <string name="titleStr">Categories</string>
+    <string name="songsStr">Songs</string>
+    <string name="moviesStr">Movies</string>
+</resources>
