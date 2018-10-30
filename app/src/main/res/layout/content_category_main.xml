@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".CategoryMain"
     tools:showIn="@layout/activity_category_main"
-    android:background="#40E0D0">
+    android:background="#000000">
 
     <TextView
         android:id="@+id/category_lbl"
@@ -16,6 +16,7 @@
         android:text="@string/titleStr"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:textColor="#8A2BE2"
         tools:fontFamily="@font/arbutus" />
 
     <Button
@@ -23,15 +24,39 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/category_lbl"
-        android:layout_marginStart="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/rounded_bttn"
         android:text="@string/songsStr" />
 
     <Button
         android:id="@+id/movie_lbl"
         android:layout_width="178dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/category_lbl"
+        android:layout_alignTop="@+id/song_lbl"
         android:layout_toEndOf="@+id/song_lbl"
-        android:text="@string/moviesStr"/>
+        android:background="@drawable/rounded_bttn"
+        android:text="@string/moviesStr" />
+
+    <Button
+        android:id="@+id/bible_lbl"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/song_lbl"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/rounded_bttn"
+        android:text="@string/childrenStr" />
+
+    <Button
+        android:id="@+id/children_lbl"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bible_lbl"
+        android:layout_toEndOf="@+id/song_lbl"
+        android:background="@drawable/rounded_bttn"
+        android:text="@string/bibleStr" />
+
+
 </RelativeLayout>

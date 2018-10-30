@@ -4,4 +4,6 @@
     <string name="titleStr">Categories</string>
     <string name="songsStr">Songs</string>
     <string name="moviesStr">Movies</string>
+    <string name="bibleStr">Bible</string>
+    <string name="childrenStr">Children</string>
 </resources>
