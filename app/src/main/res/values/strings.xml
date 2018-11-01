@@ -6,4 +6,10 @@
     <string name="moviesStr">Movies</string>
     <string name="bibleStr">Bible</string>
     <string name="childrenStr">Children</string>
+    <string name="choice">Please choose a subtopic...</string>
+    <string name="orgStr">Original Songs</string>
+    <string name="sojStr">Sing Out Joyfully</string>
+    <string name="childStr">Childrens Songs</string>
+    <string name="title_activity_songs_sub_topics">SongsSubTopics</string>
+    <string name="title_activity_quiz">QuizActivity</string>
 </resources>
